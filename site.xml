@@ -1,0 +1,9 @@
+<service>
+    <id>django</id>
+    <name>django</name>
+    <description>django测试</description>
+    <executable>D:\src\django-test\venv\Scripts\python.exe</executable>
+    <workingdirectory>D:\src\django-test\mysite</workingdirectory>
+    <arguments>manage.py runserver</arguments>
+    <log mode="roll" />
+</service>
